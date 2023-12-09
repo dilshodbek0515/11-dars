@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uyga vazifa</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div>
+        <h1>Travel reservation form</h1>
+    </div>
+    <h3>* denotes mondatory </h3>
+    <form action="">
+
+        <p>Full name*:</p>
+        <input type="text" placeholder="FirstNameLastName" required>
+
+        <p>Email addres*:</p>
+        <input type="email" placeholder="EMAIL_ADDRESS" required>
+
+        <p>Select Tour Package</p>
+        <select id="cars" name="carlist" form="carform">
+            <option value="Goa">Goa</option>
+            <option value="Rus">Rus</option>
+            <option value="Usa">Usa</option>
+            <option value="Ang">Ang</option>
+            <option value="UZB">UZB</option>
+        </select>
+
+        <p>Arrival date*:</p>
+        <input type="date">
+
+        <p>Number of persons*:</p>
+        <input type="text" placeholder="UNKNOWN_TYPE">
+
+        <p>What would you want to avail</p>
+        <input type="checkbox" id="Boarding" name="Boarding" value="boar">
+        <label for="Boarding"> Boarding</label><br>
+        <input type="checkbox" id="Fooding" name="Fooding" value="food">
+        <label for="Fooding"> Fooding</label><br>
+        <input type="checkbox" id="Sight seeing" name="Sight seeing" value="sight">
+        <label for="Sight seeing"> Sight seeing</label>
+        <br>
+
+        <p>Discout Coupon code*:</p>
+        <input type="text" placeholder="UNKNOWN_TYPE">
+        <p>Terms and conditions*</p>
+        <label for="I agree">I agree</label>
+        <input type="radio" name="rad" id="I agree">
+        <label for="I disagree">I disagree</label>
+        <input type="radio" name="rad" id="I disagree">
+        <br><br>
+        <button>Complete reservation</button>
+    </form>
+</body>
+
+</html>

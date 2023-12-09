@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 50px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.content {
+    color: aqua;
+    font-size: 40px;
+    margin-left: 110px;
+    padding-top: 100px;
+}
+
+.box {
+    width: 450px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box_g {
+    width: 450px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.box-g {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.boxing {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.btnn {
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
